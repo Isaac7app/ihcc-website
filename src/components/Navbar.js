@@ -1,15 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Button } from "./Button";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener("resize", showButton);
+
   return (
     <>
       <nav className="navbar">
-        <div className="container">
+        <div className="navbar-container">
           <Link to="/" className="navbar-logo">
             IHCC <i className="fa-solid fa-church" />
           </Link>
@@ -28,7 +46,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Our Services
               </Link>
             </li>
             <li className="nav-item">
@@ -40,9 +58,9 @@ function Navbar() {
                 Our Ministries
               </Link>
             </li>
-            <li className="nav-item">
+            <li>
               <Link
-                to="/join-us"
+                to="/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
@@ -50,6 +68,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          {button && <Button buttonStyle="btn--outline">JOIN US</Button>}
         </div>
       </nav>
     </>
