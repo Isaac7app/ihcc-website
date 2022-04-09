@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       {/* <video src="/public/videos/video-1.mp4" autoPlay loop muted /> If you want to use a video for the homepage */}
-      <h1>COME WORSHIP WITH US</h1>
+      <h1>WORSHIP WITH US</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
         <Button
