@@ -25,14 +25,14 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-3.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
+              text="Harvest Life Church"
+              label="Youth Ministry"
               path="/services"
             />
             <CardItem
               src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              text="Ushering Ministry"
+              label="Ushers"
               path="/products"
             />
             <CardItem
