@@ -87,6 +87,7 @@
   
   .cards__item__img:hover {
     transform: scale(1.1);
+    /* transition-delay: 0.2s; */
   }
   
   .cards__item__info {
