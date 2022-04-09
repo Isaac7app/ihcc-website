@@ -37,8 +37,8 @@ function Cards() {
             />
             <CardItem
               src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              text="Harvest Outreach"
+              label="Outreach"
               path="/sign-up"
             />
           </ul>
