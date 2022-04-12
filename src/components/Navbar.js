@@ -64,7 +64,7 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Join Us
+                Join
               </Link>
             </li>
           </ul>
