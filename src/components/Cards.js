@@ -10,13 +10,13 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-choir.jpg"
+              src="images/img-chior.jpg"
               text="Harvest Music Ministry"
               label="Song Ministry"
               path="/services"
             />
             <CardItem
-              src="images/img-childernd.jpg"
+              src="images/img-children.jpg"
               text="Children's Ministry"
               label="Jesus Loves Kids"
               path="/services"
