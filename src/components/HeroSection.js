@@ -22,7 +22,7 @@ function HeroSection() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          WATCH US <i className="far fa-play-circle" />
+          WATCH LIVE ON FACEBOOK <i className="far fa-play-circle" />
         </Button>
       </div>
     </div>
