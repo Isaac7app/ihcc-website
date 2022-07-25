@@ -16,7 +16,7 @@ function Footer() {
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder="Your email"
               className="footer-input"
             />
             <Button buttonStyle="btn--outline">Submit</Button>
