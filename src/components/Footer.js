@@ -16,7 +16,7 @@ function Footer() {
             <input
               type="email"
               name="email"
-              placeholder="Your email"
+              placeholder="Your e-mail"
               className="footer-input"
             />
             <Button buttonStyle="btn--outline">Submit</Button>
@@ -30,7 +30,7 @@ function Footer() {
             <Link to="/sign-up">How we Worship</Link>
             <Link to="/">Testimonies</Link>
             <Link to="/">Careers</Link>
-            <Link to="/">Donations</Link>
+            <Link to="/">Offerings</Link>
             <Link to="/">More About Us</Link>
           </div>
           <div class="footer-link-items">
